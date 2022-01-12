@@ -39,6 +39,7 @@ body div a{
     text-decoration: none;
     color: white;
     background-color: lightblue;
+    border-radius: 4px;
 }
 
 body section div img{
@@ -61,10 +62,13 @@ body section div{
 }
 
 .second{
+    display: grid;
     text-align: center;
     text-align: justify;
 }
 
 .third{
+    display: grid;
     text-align: right;
+    width: 50%;
 }
