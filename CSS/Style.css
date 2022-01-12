@@ -6,6 +6,12 @@ body{
 * Entête de page
 */
 
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+}
+
 header img{
     height: 350px;
 }
@@ -61,7 +67,8 @@ main img{
     display: flex;
     text-align: right;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .first div{
@@ -72,7 +79,8 @@ main img{
     display: flex;
     text-align: left;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .second div{
@@ -83,7 +91,9 @@ main img{
     display: flex;
     text-align: right;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .third div{
@@ -104,4 +114,16 @@ main section a{
 
 main section a:hover{
     background-color: black;
+}
+
+/*
+** Bas de page
+*/
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #4a4a4b;
+    padding: 15px;
+    margin: 15px;
 }
