@@ -1,0 +1,70 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/**
+* Entête de page
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: grey ;
+}
+
+header nav ul li a:hover{
+    color: darkred;
+}
+
+/**
+* Corps de la page
+*/
+
+body div a{
+    text-decoration: none;
+    color: white;
+    background-color: lightblue;
+}
+
+body section div img{
+    height: 350px;
+}
+
+
+body section div p{
+    color: grey;
+}
+
+
+body section div{
+    display: flex;
+    align-items: center;
+}
+
+.first{
+    justify-content: space-around;
+}
+
+.second{
+    text-align: center;
+    text-align: justify;
+}
+
+.third{
+    text-align: right;
+}
