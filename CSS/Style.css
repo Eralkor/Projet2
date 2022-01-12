@@ -6,69 +6,102 @@ body{
 * Entête de page
 */
 
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
+header img{
+    height: 350px;
 }
 
 header nav ul{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-}
-
-header nav ul li{
     list-style: none;
+    gap: 20px;
 }
 
 header nav ul li a{
     text-decoration: none;
-    color: grey ;
+    color: grey;
 }
 
 header nav ul li a:hover{
     color: darkred;
 }
 
+header section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header section p{
+    color: grey;
+}
+
 /**
 * Corps de la page
 */
 
-body div a{
-    text-decoration: none;
-    color: white;
-    background-color: lightblue;
-    border-radius: 4px;
+body{
+    background-color: rgba(241, 231, 231, 0.801);
 }
 
-body section div img{
+.title{
+    text-align: center;
+}
+
+main img{
     height: 350px;
+    box-shadow: 10px 10px lightblue;
 }
 
-
-body section div p{
-    color: grey;
-}
-
-
-body section div{
-    display: flex;
-    align-items: center;
-}
+/*
+* Cartes
+*/
 
 .first{
-    justify-content: space-around;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.first div{
+    margin-right: 20px;
 }
 
 .second{
-    display: grid;
-    text-align: center;
-    text-align: justify;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.second div{
+    margin-left: 20px;
 }
 
 .third{
-    display: grid;
+    display: flex;
     text-align: right;
-    width: 50%;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.third div{
+    margin-right: 20px;
+}
+
+/*
+* Lien "Read More"
+*/
+
+main section a{
+    text-decoration: none;
+    color: white;
+    background-color: lightblue;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+main section a:hover{
+    background-color: black;
 }
