@@ -92,6 +92,8 @@ body{
 
 .title p{
     color: #999999;
+    width: 60%;
+    margin: auto;
 }
 
 main img{
