@@ -78,7 +78,7 @@ header section div h1{
 */
 
 body{
-    background-color: rgba(241, 231, 231, 0.801);
+    background-color: #f8f9fa;
     
 }
 
@@ -86,6 +86,8 @@ body{
     text-align: center;
     width: 60%;
     margin: auto;
+    margin-top: 10%;
+    font-size: larger;
  }
 
 .title p{
@@ -109,39 +111,55 @@ main section div div p{
     display: flex;
     text-align: right;
     align-items: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
 }
 
 .first div{
     margin-right: 20px;
 }
 
+.first h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 .second{
     display: flex;
     text-align: left;
     align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+        width: 60%;
+        margin: auto;
+        margin-top: 10%;
 }
 
 .second div{
     margin-left: 20px;
 }
 
+.second h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 .third{
     display: flex;
     text-align: right;
     align-items: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .third div{
     margin-right: 20px;
+}
+
+.third h3{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 /*
